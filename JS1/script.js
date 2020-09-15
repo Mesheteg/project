@@ -1,12 +1,24 @@
 /* jshint -W097 */
 "use strict";
 
+console.log(4 + '5');
 
-const category = "toys";
+let incr = 10,
+    decr = 10;
 
-console.log(`https://someurl.com/${category}/5`);
+// incr++;
+// decr--;
+
+console.log(++incr);
+console.log(--decr);
 
 
-const user = 'Ivan';
+console.log(5%2);
 
-alert(`Привет, ${user}`)
+console.log(2 + 2 * 2 != 8);
+
+
+const isChecked = false,
+    isClose = true;
+
+console.log(isChecked || !isClose);
